@@ -10,10 +10,10 @@
         <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
-        <header>
-            <h1>WebAgency</h1>
-            <nav>
-                <ul>
+        <header class="header">
+            <h1 class="hero-title">WebAgency</h1>
+            <nav class="nav-list">
+                <ul class="nav-link">
                     <li>
                         <a href="#about">О нас</a>
                     </li>
@@ -36,19 +36,19 @@
         <section>
             <h2>Создаем современные и удобные сайты</h2>
             <p>Профессиональная веб-разработка для вашего бизнеса</p>
-            <button>Заказать сайт</button>
+            <button class="primary">Заказать сайт</button>
         </section>
 
-        <section>
+        <section class="about-section">
             <h2>О нас</h2>
             <p>
                 Мы - команда профессионалов, разрабатывающая стильные и
                 функциональные сайты.
             </p>
-            <img src="assets/team.jpg" alt="Наша команда" />
+            <img class="about-image" src="assets/team.jpg" alt="Наша команда" />
         </section>
 
-        <section>
+        <section class="services-section">
             <h2>Наши услуги</h2>
             <ul>
                 <li>Дизайн и разработка</li>
@@ -58,11 +58,11 @@
             </ul>
         </section>
 
-        <section>
+        <section class="portfolio-section">
             <h2>Наши работы</h2>
-            <div>
+            <div class="portfolio-grid">
                 <div>
-                    <img src="assets/project1.webp" alt="Проект 1" />
+                    <img class="portfolio-item" src="assets/project1.webp" alt="Проект 1" />
                 </div>
                 <div>
                     <img src="assets/project2.png" alt="Проект 2" />
@@ -81,7 +81,7 @@
             </blockquote>
         </section>
 
-        <footer>
+        <footer class="footer-section">
             <h2>Контакты</h2>
             <p>
                 Email:
@@ -91,13 +91,13 @@
                 Телефон:
                 <a href="tel:+79991234567">+7 999 123 45 67</a>
             </p>
-            <form>
-                <input type="text" name="name" placeholder="Ваше имя" />
-                <input type="email" name="email" placeholder="Ваш email" />
-                <textarea
+            <form class="contact-form">
+                <input class="form-input" type="text" name="name" placeholder="Ваше имя" />
+                <input class="form-input" type="email" name="email" placeholder="Ваш email" />
+                <textarea class="form-textarea"
                     name="message"
                     placeholder="Ваше сообщение"></textarea>
-                <button type="submit">Отправить</button>
+                <button type="submit" class="submit">Отправить</button>
             </form>
         </footer>
     </body>
